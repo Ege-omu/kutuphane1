@@ -5,7 +5,7 @@ def get_connection(user_id=None):
         host = "localhost",
         database = "kutuphane",
         user = "postgres",
-        password = "Egemen3169#",
+        password = "postgres",
         port = 5432
     )
 
@@ -15,4 +15,5 @@ def get_connection(user_id=None):
         cur.close()
     
     return conn
+
 
